@@ -1,0 +1,11 @@
+.highway__galery {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 650px 650px;
+  grid-template-rows: 400px;
+  grid-column-gap: 40px;
+
+  overflow: hidden;
+
+  position: relative;
+}

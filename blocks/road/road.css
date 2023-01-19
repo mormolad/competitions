@@ -1,0 +1,11 @@
+.road {
+
+
+  display: grid;
+  grid-template-columns: 460px 610px;
+  grid-column-gap: 250px;
+
+  margin: 94px 0 0 120px;
+
+  position: relative;
+}

@@ -9,8 +9,5 @@
 - Figma
 - HTML
 - CSS
-- JavaScript
 
 ### адрес проекта
-
-https://mormolad.github.io/mesto/

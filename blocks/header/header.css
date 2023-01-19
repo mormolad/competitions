@@ -1,1 +1,11 @@
-.header {}
+.header {
+  width: 1440px;
+  height: 74px;
+  margin: auto;
+
+  background-color: #333333;
+  display: grid;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 2;
+}

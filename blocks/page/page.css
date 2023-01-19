@@ -1,6 +1,13 @@
 .page {
-    max-width: 1440px;
+    width: 1440px;
+    margin: 0 auto;
+
+
+    display: grid;
+    justify-items: center;
+
     background-color: #333333;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
+
 }

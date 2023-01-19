@@ -1,0 +1,6 @@
+.quote__image {
+  width: 650px;
+  height: 460px;
+  background-image: url(../../../images/quote.jpg);
+  grid-row: 1 / 3;
+}

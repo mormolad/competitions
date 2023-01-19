@@ -8,6 +8,35 @@
 @import url(../blocks/header/__nav-item/header__nav-item.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 
+@import url(../blocks/road/road.css);
+@import url(../blocks/road/__column-one/road__column-one.css);
+@import url(../blocks/road/__column-two/road__column-two.css);
+@import url(../blocks/road/__title/road__title.css);
+@import url(../blocks/road/__subtitle/road__subtitle.css);
+@import url(../blocks/road/__button/road__button.css);
+@import url(../blocks/road/__line/road__line.css);
+@import url(../blocks/road/__cite/road__cite.css);
+@import url(../blocks/road/__brend/road__brend.css);
+@import url(../blocks/road/__bike-fix/road__bike-fix.css);
+@import url(../blocks/road/__overlay/road__overlay.css);
+
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__blockquote/quote__blockquote.css);
+@import url(../blocks/quote/__cite/quote_cite.css);
+@import url(../blocks/quote/__author/quote__author.css);
+@import url(../blocks/quote/__employment/quote__employment.css);
+
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__title/highway__title.css);
+@import url(../blocks/highway/__subtitle/highway__subtitle.css);
+@import url(../blocks/highway/__galery/highway__galery.css);
+@import url(../blocks/highway/__type-road/highway__type-road.css);
+@import url(../blocks/highway/__button/highway__button.css);
+@import url(../blocks/highway/__scroll/highway__scroll.css);
+@import url(../blocks/highway/__button/_place/highway__button_place_left.css);
+@import url(../blocks/highway/__button/_place/highway__button_place_right.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

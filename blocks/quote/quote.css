@@ -1,0 +1,8 @@
+.quote {
+  display: grid;
+  grid-template-columns: 650px 470px;
+  grid-column-gap: 80px;
+  justify-content: start;
+  margin: 120px auto 120px 120px;
+
+}

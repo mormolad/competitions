@@ -1,0 +1,12 @@
+.road__bike-fix {
+  width: 440px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  background-image: url(../../../images/bicke.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 340px 260px;
+  position: sticky;
+  top: 347px;
+}

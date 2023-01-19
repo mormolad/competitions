@@ -1,5 +1,8 @@
 .header__nav-item {
     list-style-type: none;
-    /* Убираем маркеры */
+}
 
+
+.header__nav-item:hover {
+    opacity: 0.65;
 }
