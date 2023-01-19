@@ -16,21 +16,69 @@
 <body class="page">
     <header class="header"></header>
     <main class="content">
-        <section class="road"></section>
-        <section class="quote"><img>
-            <blockquote class="quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</blockquote>
-            <figcaption>
-                <p class="author">Эдди Меркс</p>
-                <p class="employment">Велогонщик</p>
-            </figcaption>
+        <section class="bicycle">
+            <nav class="bicycle__navigation">
+                <h2 class="bicycle__title">Велосипеды</h2>
+                <ul class="bicycle__links">
+                    <li class="bicycle__links-list"><a href="#" class="bicycle__link bicycle__link-active">Шоссе</a></li>
+                    <li class="bicycle__links-list"><a href="#" class="bicycle__link">Грэвел</a></li>
+                    <li class="bicycle__links-list"><a href="#" class="bicycle__link">TT</a></li>
+                </ul>
+            </nav>
+            <div class="bicycle__cards">
+                <div class="bicycle__card">
+                    <div class="bicycle__image">
+                        <a href="#" class="bicycle__link">
+                            <img src="./images/bike-1.svg" alt="велосипед">
+                        </a>
+                    </div>
+                    <p class="bicycle__card-description">Cervelo Caledonia-5</p>
+                </div>
+                <div class="bicycle__card">
+                    <div class="bicycle__image">
+                        <a href="#" class="bicycle__link">
+                            <img src="./images/bike-2.svg" alt="велосипед">
+                        </a>
+                    </div>
+                    <p class="bicycle__card-description">Cannondale Systemsix Himod</p>
+                </div>
+                <div class="bicycle__card">
+                    <div class="bicycle__image">
+                        <a href="#" class="bicycle__link">
+                            <img src="./images/bike-3.svg" alt="велосипед">
+                        </a>
+                    </div>
+                    <p class="bicycle__card-description">Trek Domane SL-7</p>
+                </div>
+            </div>
         </section>
-        <section class="highway">
-            <h2>Шоссе</h2>
-            <p>На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
-            будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <section class="workout">
+            <div class="workout__description">
+                <div class="workout__text-description">
+                    <h2 class="workout__title">Тренировки</h2>
+                    <p class="workout__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+                        а записать эти тренировки поможет приложение Strava, а также это приложение
+                        позволит построить тренировочный план.</p>
+                    <ul class="workout__links">
+                        <li class="workout__link-list"><a href="#" class="workout__link">Strava</a></li>
+                        <li class="workout__link-list"><a href="#" class="workout__link">Komoot</a></li>
+                    </ul>
+                </div>
+                <img src="./images/workout.jpg" alt="дорога в лесу">
+            </div>
         </section>
-        <section class="bicycle"></section>
-        <section class="workout"></section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <h2 class="footer-title">Подпишитесь на рассылку —</h2>
+        <div class="footer__input-form">
+            <p class="footer__input">Ваш e-mail</p>
+        </div>
+        <div class="footer-text">
+            <p class="footer__copyright">© Road Club 2021</p>
+            <ul class="footer__icons">
+                <li class="footer__icons-list"><img src="./images/sun-icon.svg" alt="иконка-солнце"></li>
+                <li class="footer__icons-list"><img src="./images/moon-icon.svg" alt="луна-солнце"></li>
+            </ul>
+        </div>
+    </footer>
 </body>

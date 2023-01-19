@@ -1,11 +1,234 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
+.bicycle__navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 120px;
+    margin-bottom: 120px;
+}
 
+.bicycle__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: flex-end;
+}
 
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+.bicycle__links-list {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.bicycle__links-list:last-child {
+    margin-right: 0px;
+}
+
+.bicycle__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: right;
+    color: #E5E5E5;
+}
+
+.bicycle__link-active {
+    color: #FFFFFF;
+}
+
+.bicycle__title {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.09;
+    letter-spacing: -0.5px;     
+    color: #FFFFFF;
+}
+
+.bicycle__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    column-gap: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.bicycle__image {
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 22px;
+}
+
+.bicycle__card-description {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+}
+
+.bicycle__link {
+    width: 100%;
+    min-height: 380px;
+    text-decoration: none;
+}
+
+.workout {
+    padding-top: 150px;
+}
+
+.workout__description {
+    display: grid;
+    grid-template-columns: 460px 580px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 160px;
+    margin-bottom: 120px;
+}
+
+.workout__links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    /* margin-top: 182px; */
+}
+
+.workout__link {
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #FFFFFF;
+}
+
+.workout__link-list {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.workout__link-list:last-child {
+    margin-right: 0;
+}
+
+.workout__title {
+    margin: 0;
+    margin-bottom: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.09;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.workout__text {
+    margin: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #E5E5E5;
+    opacity: 0.7;
+    margin-bottom: 182px;
+}
+
+.footer{
+    padding-top: 80px;
+}
+
+.footer-title {
+    margin: 0;
+    margin-left: 120px;
+    max-width: 229px;
+    margin-bottom: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    color: #FFFFFF;
+}
+
+.footer__input-form{
+    padding: 11px 270px 11px 20px;
+    border: 1px solid rgba(125, 125, 125, 0.5);
+    border-radius: 4px;
+    max-width: 360px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.footer__input {
+    /* max-width: fit-content(70px); */
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2.15;
+    color: #FFFFFF;
+    opacity: 0.5;
+    width: 70px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 240px);
+    margin: 0 auto 60px;
+    align-items: flex-end;
+}
+
+.footer__icons {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer__icons-list {
+    list-style-type: none;
+    margin-right: 22px;
+}
+
+.footer__icons-list:last-child {
+    margin-right: 0;
+}
+
+.footer__copyright {
+    margin: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #565656;
+}
