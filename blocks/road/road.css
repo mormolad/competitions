@@ -1,6 +1,4 @@
 .road {
-
-
   display: grid;
   grid-template-columns: 460px 610px;
   grid-column-gap: 250px;
@@ -8,4 +6,13 @@
   margin: 94px 0 0 120px;
 
   position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+  .road {
+    grid-template-columns: 300px 500px;
+    grid-column-gap: 120px;
+
+    margin: 94px 0 0 60px;
+  }
 }

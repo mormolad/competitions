@@ -7,6 +7,8 @@
 @import url(../blocks/header/__nav-menu/header__nav-menu.css);
 @import url(../blocks/header/__nav-item/header__nav-item.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__nav-header/header__nav-header.css);
+@import url(../blocks/header/__nav-mobile/header__nav-mobile.css);
 
 @import url(../blocks/road/road.css);
 @import url(../blocks/road/__column-one/road__column-one.css);

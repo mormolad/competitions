@@ -3,6 +3,8 @@
   height: 74px;
   margin: auto;
 
+  justify-self: end;
+
   background-color: #333333;
   display: grid;
   justify-content: flex-end;

@@ -1,0 +1,14 @@
+.header__nav-mobile {
+    visibility: hidden;
+
+
+}
+
+@media screen and (max-width: 760px) {
+    .header__nav-mobile {
+        visibility: visible;
+        margin: 28px 18px 30px auto;
+        color: #ffffff;
+        font-size: 22px;
+    }
+}

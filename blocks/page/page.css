@@ -1,10 +1,11 @@
 .page {
-    width: 1440px;
+
     margin: 0 auto;
 
 
     display: grid;
     justify-items: center;
+    grid-template-columns: 1440px;
 
     background-color: #333333;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
