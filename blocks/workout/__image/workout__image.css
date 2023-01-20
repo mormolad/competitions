@@ -1,0 +1,18 @@
+.workout__image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .workout__image {
+        width: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .workout__image {
+        height: auto;
+        margin: auto;
+        display: none;
+    }  
+}

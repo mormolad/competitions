@@ -1,0 +1,8 @@
+.footer__icons-list {
+    list-style-type: none;
+    margin-right: 22px;
+}
+
+.footer__icons-list:last-child {
+    margin-right: 0;
+}

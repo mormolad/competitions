@@ -1,0 +1,14 @@
+.bicycle__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: right;
+    color: #E5E5E5;
+}
+
+.bicycle__link:hover {
+    opacity: 0.6;
+}

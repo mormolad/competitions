@@ -1,0 +1,33 @@
+.workout__description {
+    display: grid;
+    grid-template-columns: fit-content(460px) 580px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 160px;
+    margin-bottom: 120px;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .workout__description {
+        grid-template-columns: fit-content(460px) 450px;
+        column-gap: 80px;
+        max-width: 990px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .workout__description {
+        grid-template-columns: fit-content(380px) fit-content(380px);
+        column-gap: 30px;
+        max-width: 790px;
+    }
+}
+
+@media (max-width: 768px) {
+    .workout__description {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+}

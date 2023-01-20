@@ -1,0 +1,12 @@
+.bicycle__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    .bicycle__links { 
+        display: none;
+    }
+}

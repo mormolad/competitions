@@ -1,0 +1,7 @@
+.workout__links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
