@@ -1,6 +1,6 @@
 .header__nav-mobile {
     visibility: hidden;
-
+    cursor: pointer;
 
 }
 
@@ -8,8 +8,9 @@
     .header__nav-mobile {
         visibility: visible;
 
-        margin: 28px 18px 30px auto;
+        margin: 36px 0 30px 275px;
         color: #ffffff;
-        font-size: 22px;
+        font-size: 26px;
+        font-weight: 600;
     }
 }

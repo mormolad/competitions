@@ -21,7 +21,8 @@
 @media screen and (max-width: 1024px) {
   .quote {
     grid-template-columns: 320px;
-    margin: 120px auto 120px auto;
+    margin: 0 auto;
+    grid-row-gap: 0px;
 
   }
 }

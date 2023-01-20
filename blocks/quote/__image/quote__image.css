@@ -22,6 +22,7 @@
     grid-row: 1 / 2;
     margin-bottom: 40px;
     justify-self: center;
+    margin: 0 auto;
   }
 }
 
@@ -30,6 +31,6 @@
   .quote__image {
     grid-template-columns: 320px;
     grid-column-gap: 40px;
-    margin: 120px auto 120px auto;
+    margin: 0 auto;
   }
 }

@@ -16,7 +16,7 @@
 @media screen and (max-width: 1024px) {
   .road__subtitle {
     max-width: 282px;
-    margin: 0 auto 50px 18px;
+    margin: 0 auto 0 18px;
 
     font-size: 12px;
     line-height: 18px;

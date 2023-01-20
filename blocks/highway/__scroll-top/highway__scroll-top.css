@@ -5,6 +5,6 @@
 @media screen and (max-width: 1050px) {
     .highway__scroll-top {
         display: flex;
-
+        cursor: pointer;
     }
 }
