@@ -1,5 +1,5 @@
 .highway {
   display: grid;
   grid-column-gap: 50px;
-  margin-left: 120px;
+  margin: 80px auto 0 auto;
 }

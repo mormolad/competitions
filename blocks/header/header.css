@@ -1,13 +1,19 @@
 .header {
-  width: 1440px;
+  width: 100vw;
   height: 74px;
-  margin: auto;
+  margin: 0 auto;
 
-  justify-self: end;
 
   background-color: #333333;
   display: grid;
-  justify-content: flex-end;
   position: fixed;
   z-index: 2;
+
+}
+
+
+@media screen and (max-width: 760px) {
+  .header {
+    justify-content: end;
+  }
 }

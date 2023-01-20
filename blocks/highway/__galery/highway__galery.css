@@ -9,3 +9,10 @@
 
   position: relative;
 }
+
+@media screen and (max-width: 1040px) {
+  .highway__galery {
+    grid-template-columns: 284px;
+
+  }
+}

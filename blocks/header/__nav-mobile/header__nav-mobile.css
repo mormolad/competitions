@@ -4,9 +4,10 @@
 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1024px) {
     .header__nav-mobile {
         visibility: visible;
+
         margin: 28px 18px 30px auto;
         color: #ffffff;
         font-size: 22px;

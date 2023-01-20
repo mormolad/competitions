@@ -1,14 +1,33 @@
 .page {
-
     margin: 0 auto;
-
-
+    width: 1440px;
     display: grid;
     justify-items: center;
-    grid-template-columns: 1440px;
+    justify-content: center;
+
 
     background-color: #333333;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
+    position: relative;
+    ;
+}
 
+@media screen and (max-width: 1440px) {
+    .page {
+        width: 1024px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .page {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .page {
+        width: 320px;
+    }
 }

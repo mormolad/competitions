@@ -16,3 +16,19 @@
 
   color: #FFFFFF;
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .road__button {
+    margin: 0 auto 80px auto;
+
+    width: 284px;
+    height: 46px;
+
+    font-size: 13px;
+    line-height: 19px;
+
+  }
+}

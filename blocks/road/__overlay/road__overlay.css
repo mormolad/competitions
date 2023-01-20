@@ -4,3 +4,25 @@
   position: absolute;
   right: 20px;
 }
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  .road__overlay {
+    width: 410px;
+    height: 577px;
+    background-size: 180px 139px
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .road__overlay {
+    width: 302px;
+    height: 500px;
+    background-size: 180px 139px;
+    left: 0;
+    top: 40%
+  }
+}

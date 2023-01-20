@@ -5,3 +5,16 @@
   margin-bottom: 8px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1440px) {
+  .quote__author {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .quote__author {
+    margin: 0 auto 4px 18px;
+  }
+}

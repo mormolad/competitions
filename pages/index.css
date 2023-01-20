@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav-menu/header__nav-menu.css);
@@ -21,6 +22,7 @@
 @import url(../blocks/road/__brend/road__brend.css);
 @import url(../blocks/road/__bike-fix/road__bike-fix.css);
 @import url(../blocks/road/__overlay/road__overlay.css);
+@import url(../blocks/road/__mobile-image/road__mobale-image.css);
 
 
 @import url(../blocks/quote/quote.css);
@@ -39,6 +41,7 @@
 @import url(../blocks/highway/__scroll/highway__scroll.css);
 @import url(../blocks/highway/__button/_place/highway__button_place_left.css);
 @import url(../blocks/highway/__button/_place/highway__button_place_right.css);
+@import url(../blocks/highway/__bike-right/highway__bike-right.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

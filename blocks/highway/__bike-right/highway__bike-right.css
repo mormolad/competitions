@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+  .highway__bike-right {
+    display: none;
+  }
+}

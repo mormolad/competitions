@@ -1,0 +1,17 @@
+.road__mobile-image {
+  display: none
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .road__mobile-image {
+    display: grid;
+    margin: 40px auto 40px auto;
+    background-image: url(../../../images/road_s.jpg);
+    background-size: 100% 100%;
+    width: 254px;
+    height: 348px;
+  }
+}

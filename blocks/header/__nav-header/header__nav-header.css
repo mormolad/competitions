@@ -1,5 +1,18 @@
-@media screen and (max-width: 760px) {
+.header__nav-header {
+    width: 1440px;
+}
+
+
+@media screen and (max-width: 1024px) {
     .header__nav-header {
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    .header__nav-header {
+
+        width: 1024px;
     }
 }
