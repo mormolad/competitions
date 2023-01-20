@@ -1,0 +1,10 @@
+.workout__image-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .workout__image-mobile{
+        display: block;
+        margin-bottom: 40px;
+    }
+}

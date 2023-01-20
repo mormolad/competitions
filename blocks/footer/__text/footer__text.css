@@ -1,0 +1,12 @@
+.footer__text {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 240px);
+    margin: 0 auto 60px;
+    align-items: flex-end;
+}
+
+.footer__text {
+    width: calc(100% - 36px);
+    margin-bottom: 25px;
+}

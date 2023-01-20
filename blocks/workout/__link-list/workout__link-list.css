@@ -1,0 +1,8 @@
+.workout__link-list {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.workout__link-list:last-child {
+    margin-right: 0;
+}

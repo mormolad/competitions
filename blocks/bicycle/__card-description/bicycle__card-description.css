@@ -1,0 +1,17 @@
+.bicycle__card-description {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .bicycle__card-description {
+        font-size: 14px;
+        line-height: 1.29;
+        text-align: center;
+    }
+}
