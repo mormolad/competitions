@@ -1,0 +1,25 @@
+    .bicycle__link-form {
+        margin: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 2.15;
+        color: #FFFFFF;
+        opacity: 0.7;
+        margin-right: 42px;
+    }
+
+    @media (max-width: 768px) {
+        .bicycle__link-form {
+            margin: 0;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 2.15;
+            color: #FFFFFF;
+            opacity: 0.7;
+            margin-right: 42px;
+        }
+    }

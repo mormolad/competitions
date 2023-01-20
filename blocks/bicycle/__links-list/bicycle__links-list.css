@@ -1,0 +1,8 @@
+.bicycle__links-list {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.bicycle__links-list:last-child {
+    margin-right: 0px;
+}

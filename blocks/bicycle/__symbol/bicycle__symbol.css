@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    .bicycle__symbol {
+        transform: rotate(270deg);
+        color: #FFFFFF;
+        width: 4.5px;
+    }
+}

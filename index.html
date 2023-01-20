@@ -14,7 +14,7 @@
 </head>
 
 <body class="page">
-    <!-- <header class="header">
+    <header class="header">
         <nav class="header__nav-header">
             <ul class="header__nav-menu">
                 <li class="header__nav-item"><a href="#переделать на ссылку на страницу"
@@ -26,7 +26,7 @@
             </ul>
         </nav>
         <nav class="header__nav-mobile">&#9776;</nav>
-    </header> -->
+    </header>
     <main class="content">
         <section class="road">
             <div class="road__column-one">
@@ -75,6 +75,86 @@
         </section>
         <section class="bicycle"></section>
         <section class="workout"></section>
+
+        <section class="bicycle">
+            <div class="line"></div>
+            <nav class="bicycle__navigation">
+                <h2 class="bicycle__title">Велосипеды</h2>
+                <ul class="bicycle__links">
+                    <li class="bicycle__links-list"><a href="#" class="bicycle__link bicycle__link_active">Шоссе</a>
+                    </li>
+                    <li class="bicycle__links-list"><a href="#" class="bicycle__link">Грэвел</a></li>
+                    <li class="bicycle__links-list"><a href="#" class="bicycle__link">TT</a></li>
+                </ul>
+                <div class="bicycle__links-form">
+                    <a class="bicycle__link-form">Шоссе</a>
+                    <div class="bicycle__symbol">&#10094;</div>
+                </div>
+            </nav>
+            <div class="bicycle__cards">
+                <div class="bicycle__card">
+                    <div class="bicycle__image">
+                        <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+                            class="bicycle__link-img" target="_blank">
+                            <img src="../images/bike-1.svg" alt="велосипед" class="bicycle__image-example">
+                        </a>
+                    </div>
+                    <p class="bicycle__card-description">Cervelo Caledonia-5</p>
+                </div>
+                <div class="bicycle__card bicycle__card-disabled">
+                    <div class="bicycle__image">
+                        <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+                            class="bicycle__link-img" target="_blank">
+                            <img src="../images/bike-2.svg" alt="велосипед">
+                        </a>
+                    </div>
+                    <p class="bicycle__card-description">Cannondale Systemsix Himod</p>
+                </div>
+                <div class="bicycle__card bicycle__card-disabled">
+                    <div class="bicycle__image">
+                        <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+                            class="bicycle__link-img" target="_blanks">
+                            <img src="./images/bike-3.svg" alt="велосипед">
+                        </a>
+                    </div>
+                    <p class="bicycle__card-description">Trek Domane SL-7</p>
+                </div>
+            </div>
+        </section>
+        <section class="workout">
+            <div class="line"></div>
+            <div class="workout__description">
+
+                <div class="workout__text-description">
+                    <h2 class="workout__title">Тренировки</h2>
+                    <img src="./images/workout.jpg" alt="дорога в лесу" class="workout__image workout__image-mobile">
+                    <p class="workout__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+                        а записать эти тренировки поможет приложение Strava, а также это приложение
+                        позволит построить тренировочный план.</p>
+                    <ul class="workout__links">
+                        <li class="workout__link-list"><a href="https://www.strava.com" class="workout__link"
+                                target="_blank">Strava</a></li>
+                        <li class="workout__link-list"><a href="https://www.komoot.com" class="workout__link"
+                                target="_blank">Komoot</a></li>
+                    </ul>
+                </div>
+                <img src="./images/workout.jpg" alt="дорога в лесу" class="workout__image">
+            </div>
+        </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+        <div class="footer__input-form">
+            <p class="footer__input">Ваш e-mail</p>
+        </div>
+        <div class="footer__text">
+            <p class="footer__copyright">© Road Club 2021</p>
+            <img src="./images/last-item.svg" alt="иконка-шестеренка" class="footer__icons-active">
+            <ul class="footer__icons">
+
+                <li class="footer__icons-list"><img src="./images/sun-icon.svg" alt="иконка-солнце"></li>
+                <li class="footer__icons-list"><img src="./images/moon-icon.svg" alt="луна-солнце"></li>
+            </ul>
+        </div>
+    </footer>
 </body>

@@ -1,0 +1,7 @@
+.bicycle__link_active {
+    color: #FFFFFF;
+}
+
+.bicycle__link_active:hover {
+    opacity: 0.75;
+}

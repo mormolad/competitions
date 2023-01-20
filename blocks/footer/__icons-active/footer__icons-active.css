@@ -1,0 +1,12 @@
+.footer__icons-active{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .footer__icons-active{
+        display: block;
+        list-style-type: none;
+    }
+    
+}
+

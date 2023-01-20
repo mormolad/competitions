@@ -1,0 +1,18 @@
+.footer__input-form{
+    padding: 11px 270px 11px 20px;
+    border: 1px solid rgba(125, 125, 125, 0.5);
+    border-radius: 4px;
+    max-width: 360px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .footer__input-form {
+        margin-left: 18px;
+        max-width: 284px;
+    }
+}

@@ -1,0 +1,21 @@
+.workout__title {
+    margin: 0;
+    margin-bottom: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.09;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .workout__title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 1.25;
+    }
+}

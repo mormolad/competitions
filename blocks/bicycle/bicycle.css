@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    .bicycle {
+        max-width: calc(100% - 36px);
+        margin: 0  auto;
+        padding-top: 40px;
+    }
+}
