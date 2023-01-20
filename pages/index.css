@@ -42,6 +42,7 @@
 @import url(../blocks/highway/__button/_place/highway__button_place_left.css);
 @import url(../blocks/highway/__button/_place/highway__button_place_right.css);
 @import url(../blocks/highway/__bike-right/highway__bike-right.css);
+@import url(../blocks/highway/__bike-left/);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
