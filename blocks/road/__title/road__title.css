@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1024px) {
   .road__title {
-    margin: 36px auto 0 14px;
+    margin: 36px auto 45px 14px;
     max-width: 180px;
     font-size: 32px;
     line-height: 40px;
