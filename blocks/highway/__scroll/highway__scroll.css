@@ -2,3 +2,9 @@
   display: flex;
   margin-top: 67px;
 }
+
+@media screen and (max-width: 1050px) {
+  .highway__scroll {
+    display: none;
+  }
+}

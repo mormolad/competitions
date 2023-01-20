@@ -3,3 +3,13 @@
   grid-column-gap: 50px;
   margin: 80px auto 0 auto;
 }
+
+
+
+@media screen and (max-width: 1050px) {
+  .highway {
+    display: flex;
+    flex-direction: column;
+
+  }
+}

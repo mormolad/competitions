@@ -1,4 +1,10 @@
 .highway__button_place_right {
   background-image: url(../../../../images/scroll-right.svg);
+}
 
+
+@media screen and (max-width: 1050px) {
+  .highway__button_place_right {
+    background-size: 4.5px 10px;
+  }
 }

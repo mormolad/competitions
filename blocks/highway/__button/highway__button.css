@@ -8,3 +8,11 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1050px) {
+  .highway__button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+}

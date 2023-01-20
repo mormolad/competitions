@@ -1,5 +1,5 @@
 .highway__galery {
-  height: 400px;
+
   display: grid;
   grid-template-columns: 650px 650px;
   grid-template-rows: 400px;
@@ -10,9 +10,10 @@
   position: relative;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1050px) {
   .highway__galery {
     grid-template-columns: 284px;
-
+    grid-template-rows: 175px;
+    grid-column-gap: 0px;
   }
 }
