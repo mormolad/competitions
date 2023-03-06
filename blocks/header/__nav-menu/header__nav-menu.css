@@ -3,7 +3,5 @@
     grid-template-columns: 161px repeat(2, min-content);
     grid-column-gap: 34px;
     justify-content: end;
-
     padding: 0 120px 0 0;
-
 }
