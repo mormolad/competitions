@@ -1,17 +1,12 @@
 .page {
-
     margin: 0 auto;
     width: 1440px;
     display: grid;
-    justify-items: center;
     justify-content: center;
-
-
     background-color: #333333;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
     position: relative;
-    ;
 }
 
 @media screen and (max-width: 1440px) {
